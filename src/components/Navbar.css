@@ -1,0 +1,23 @@
+nav {
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: #cacaca;
+}
+nav > .space {
+  flex: 1;
+}
+nav > img {
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+nav > a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+nav > a:hover {
+  cursor: pointer;
+  color: red;
+}
